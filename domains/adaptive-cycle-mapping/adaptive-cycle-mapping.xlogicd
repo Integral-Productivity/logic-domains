@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><domain majorVersion="5" minorVersion="0">
+<attributes>
+<attribute class="java.lang.String" key="name">Adaptive Cycle Mapping</attribute>
+<attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+<attribute class="java.lang.Boolean" key="hidden">false</attribute>
+</attributes>
+<entityClass>
+<attributes>
+<attribute class="java.util.UUID" key="uuid">246dc8fc-73c9-457b-95b6-4753898eafe6</attribute>
+<attribute class="java.lang.String" key="name">Reorganization (α)</attribute>
+<attribute class="com.arciem.graphics.ColorRGB" key="color">
+<colorRGB blue="1.0" green="0.6000000238418579" red="0.20000000298023224"/>
+</attribute>
+<attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+<attribute class="java.lang.Boolean" key="milestone">false</attribute>
+<attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+<attribute class="java.lang.String" key="assignment">ResourceAssignment.fixedeffort</attribute>
+</attributes>
+</entityClass>
+<entityClass>
+<attributes>
+<attribute class="java.util.UUID" key="uuid">ba05c95b-6eba-4ef7-ad34-b046bfb92852</attribute>
+<attribute class="java.lang.String" key="name">Collapse/Release (Ω)</attribute>
+<attribute class="com.arciem.graphics.ColorRGB" key="color">
+<colorRGB blue="0.800000011920929" green="0.0" red="0.800000011920929"/>
+</attribute>
+<attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+<attribute class="java.lang.Boolean" key="milestone">false</attribute>
+<attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+<attribute class="java.lang.String" key="assignment">ResourceAssignment.fixedeffort</attribute>
+</attributes>
+</entityClass>
+<entityClass>
+<attributes>
+<attribute class="java.util.UUID" key="uuid">3a6913e4-a3d5-4fb8-9ce9-c18125e15bc7</attribute>
+<attribute class="java.lang.String" key="name">Growth or Exploitation (Γ)</attribute>
+<attribute class="com.arciem.graphics.ColorRGB" key="color">
+<colorRGB blue="0.0" green="0.800000011920929" red="0.0"/>
+</attribute>
+<attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+<attribute class="java.lang.Boolean" key="milestone">false</attribute>
+<attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+<attribute class="java.lang.String" key="assignment">ResourceAssignment.fixedeffort</attribute>
+</attributes>
+</entityClass>
+<entityClass>
+<attributes>
+<attribute class="java.util.UUID" key="uuid">61445a12-c795-44e4-8385-fc261741eb50</attribute>
+<attribute class="java.lang.String" key="name">Exit (χ)</attribute>
+<attribute class="com.arciem.graphics.ColorRGB" key="color">
+<colorRGB blue="1.0" green="0.800000011920929" red="0.800000011920929"/>
+</attribute>
+<attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+<attribute class="java.lang.Boolean" key="milestone">false</attribute>
+<attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+<attribute class="java.lang.String" key="assignment">ResourceAssignment.fixedeffort</attribute>
+</attributes>
+</entityClass>
+<entityClass>
+<attributes>
+<attribute class="java.util.UUID" key="uuid">0c539b3e-1030-4840-96f8-25c904a62955</attribute>
+<attribute class="java.lang.String" key="name">Conservation (Κ)</attribute>
+<attribute class="com.arciem.graphics.ColorRGB" key="color">
+<colorRGB blue="0.800000011920929" green="0.800000011920929" red="1.0"/>
+</attribute>
+<attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+<attribute class="java.lang.Boolean" key="milestone">false</attribute>
+<attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+<attribute class="java.lang.String" key="assignment">ResourceAssignment.fixedeffort</attribute>
+</attributes>
+</entityClass>
+</domain>

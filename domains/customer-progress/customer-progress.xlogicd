@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><domain majorVersion="5" minorVersion="0">
+<attributes>
+<attribute class="java.lang.String" key="name">Customer Progress</attribute>
+<attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+<attribute class="java.lang.Boolean" key="hidden">false</attribute>
+</attributes>
+<entityClass>
+<attributes>
+<attribute class="java.util.UUID" key="uuid">4bf1a064-a113-4c75-bf80-ddecec3f9233</attribute>
+<attribute class="java.lang.String" key="name">Design Opportunity</attribute>
+<attribute class="com.arciem.graphics.ColorRGB" key="color">
+<colorRGB blue="0.8470588235294118" green="0.5764705882352941" red="0.807843137254902"/>
+</attribute>
+<attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+<attribute class="java.lang.Boolean" key="milestone">false</attribute>
+<attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+</attributes>
+</entityClass>
+<entityClass>
+<attributes>
+<attribute class="java.util.UUID" key="uuid">f74c8930-7035-4c47-9908-8748f766005f</attribute>
+<attribute class="java.lang.String" key="name">Customer Action</attribute>
+<attribute class="com.arciem.graphics.ColorRGB" key="color">
+<colorRGB blue="0.7647058823529411" green="0.9568627450980393" red="0.9411764705882353"/>
+</attribute>
+<attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+<attribute class="java.lang.Boolean" key="milestone">false</attribute>
+<attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+</attributes>
+</entityClass>
+<entityClass>
+<attributes>
+<attribute class="java.util.UUID" key="uuid">03da5328-cde3-41d9-879a-b806a017f143</attribute>
+<attribute class="java.lang.String" key="name">Habit</attribute>
+<attribute class="com.arciem.graphics.ColorRGB" key="color">
+<colorRGB blue="0.047058823529411764" green="0.21176470588235294" red="0.7490196078431373"/>
+</attribute>
+<attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+<attribute class="java.lang.Boolean" key="milestone">false</attribute>
+<attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+</attributes>
+</entityClass>
+<entityClass>
+<attributes>
+<attribute class="java.util.UUID" key="uuid">f87e3a85-90d7-4e53-94b5-4b6091a5e66b</attribute>
+<attribute class="java.lang.String" key="name">Anxiety</attribute>
+<attribute class="com.arciem.graphics.ColorRGB" key="color">
+<colorRGB blue="0.11764705882352941" green="0.3176470588235294" red="0.9568627450980393"/>
+</attribute>
+<attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+<attribute class="java.lang.Boolean" key="milestone">false</attribute>
+<attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+</attributes>
+</entityClass>
+<entityClass>
+<attributes>
+<attribute class="java.util.UUID" key="uuid">073ca0c1-89fc-4608-926a-1270126929ee</attribute>
+<attribute class="java.lang.String" key="name">Pull</attribute>
+<attribute class="com.arciem.graphics.ColorRGB" key="color">
+<colorRGB blue="0.7686274509803922" green="0.796078431372549" red="0.5019607843137255"/>
+</attribute>
+<attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+<attribute class="java.lang.Boolean" key="milestone">false</attribute>
+<attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+</attributes>
+</entityClass>
+<entityClass>
+<attributes>
+<attribute class="java.util.UUID" key="uuid">8631ad99-3ff0-4e30-82e4-4491f1520189</attribute>
+<attribute class="java.lang.String" key="name">Push</attribute>
+<attribute class="com.arciem.graphics.ColorRGB" key="color">
+<colorRGB blue="0.6745098039215687" green="0.7137254901960784" red="0.30196078431372547"/>
+</attribute>
+<attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+<attribute class="java.lang.Boolean" key="milestone">false</attribute>
+<attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+</attributes>
+</entityClass>
+<entityClass>
+<attributes>
+<attribute class="java.util.UUID" key="uuid">c151a9d5-d5c2-4762-b819-cd3b24b4d7bd</attribute>
+<attribute class="java.lang.String" key="name">Pain Point</attribute>
+<attribute class="com.arciem.graphics.ColorRGB" key="color">
+<colorRGB blue="0.45098039215686275" green="0.45098039215686275" red="0.8980392156862745"/>
+</attribute>
+<attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+<attribute class="java.lang.Boolean" key="milestone">false</attribute>
+<attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+</attributes>
+</entityClass>
+<entityClass>
+<attributes>
+<attribute class="java.util.UUID" key="uuid">b9e8941c-e202-438c-b4ed-058958786488</attribute>
+<attribute class="java.lang.String" key="name">Customer Outcome</attribute>
+<attribute class="com.arciem.graphics.ColorRGB" key="color">
+<colorRGB blue="0.396078431372549" green="0.8" red="0.611764705882353"/>
+</attribute>
+<attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+<attribute class="java.lang.Boolean" key="milestone">false</attribute>
+<attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+</attributes>
+</entityClass>
+<entityClass>
+<attributes>
+<attribute class="java.util.UUID" key="uuid">f92ffce2-1796-4177-a068-aabb3bc2342c</attribute>
+<attribute class="java.lang.String" key="name">Switch Trigger</attribute>
+<attribute class="com.arciem.graphics.ColorRGB" key="color">
+<colorRGB blue="0.8549019607843137" green="0.6588235294117647" red="0.6235294117647059"/>
+</attribute>
+<attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+<attribute class="java.lang.Boolean" key="milestone">false</attribute>
+<attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+</attributes>
+</entityClass>
+<entityClass>
+<attributes>
+<attribute class="java.util.UUID" key="uuid">70f733d9-174e-4978-9b38-2a006e53e30e</attribute>
+<attribute class="java.lang.String" key="name">Job</attribute>
+<attribute class="com.arciem.graphics.ColorRGB" key="color">
+<colorRGB blue="0.796078431372549" green="0.5254901960784314" red="0.4745098039215686"/>
+</attribute>
+<attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+<attribute class="java.lang.Boolean" key="milestone">false</attribute>
+<attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+</attributes>
+</entityClass>
+</domain>
