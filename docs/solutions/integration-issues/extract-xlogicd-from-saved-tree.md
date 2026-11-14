@@ -4,7 +4,7 @@ date: 2026-11-14
 category: integration-issues
 tags: [flying-logic, xlogicd, logic-domain, export, drift]
 related:
-  - docs/adr/0001-repository-scope.md
+  - docs/adr/0001-this-repository-holds-logic-domains-and-their-catalog.md
   - scripts/extract-domain.mjs
 ---
 
