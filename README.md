@@ -26,8 +26,9 @@ See [ADR 0001](docs/adr/0001-this-repository-holds-logic-domains-and-their-catal
 | [Self-Organization](domains/self-organization/) | Proposed |
 | [Product Lifecycle](domains/product-lifecycle/) | Proposed |
 | [Customer Progress](domains/customer-progress/) | Proposed |
+| [Adaptive Cycle Mapping](domains/adaptive-cycle-mapping/) | Proposed |
 
-The three model the path from commitment to outcome. See [ADR 0002](docs/adr/0002-logic-domains-model-commitment-to-outcome.md).
+The first three model the path from commitment to outcome. Adaptive Cycle Mapping marks where a system sits in its adaptive cycle. See [ADR 0002](docs/adr/0002-logic-domains-model-commitment-to-outcome.md).
 
 ## Check the manifests
 

@@ -1,0 +1,47 @@
+{
+  "name": "adaptive-cycle-mapping",
+  "title": "Adaptive Cycle Mapping",
+  "version": "0.1.0",
+  "status": "proposed",
+  "description": "The four phases of the adaptive cycle from panarchy theory (Gunderson and Holling, 2002), plus an exit from the cycle. Use it to mark where a system, product or organization sits in its cycle of growth, conservation, release and reorganization.",
+  "owner": "",
+  "sources": [
+    "https://en.wikipedia.org/wiki/Panarchy"
+  ],
+  "flying_logic": {
+    "domain_name": "Adaptive Cycle Mapping",
+    "domain_file": "adaptive-cycle-mapping.logic-d"
+  },
+  "classes": [
+    {
+      "name": "Growth or Exploitation (Γ)",
+      "uuid": "3a6913e4-a3d5-4fb8-9ce9-c18125e15bc7",
+      "kind": "unassigned",
+      "note": "A phase of the adaptive cycle. A phase describes the state of a system, not a cause or an effect, so the logical kind is not decided yet."
+    },
+    {
+      "name": "Conservation (Κ)",
+      "uuid": "0c539b3e-1030-4840-96f8-25c904a62955",
+      "kind": "unassigned",
+      "note": "A phase of the adaptive cycle. A phase describes the state of a system, not a cause or an effect, so the logical kind is not decided yet."
+    },
+    {
+      "name": "Collapse/Release (Ω)",
+      "uuid": "ba05c95b-6eba-4ef7-ad34-b046bfb92852",
+      "kind": "unassigned",
+      "note": "A phase of the adaptive cycle. A phase describes the state of a system, not a cause or an effect, so the logical kind is not decided yet."
+    },
+    {
+      "name": "Reorganization (α)",
+      "uuid": "246dc8fc-73c9-457b-95b6-4753898eafe6",
+      "kind": "unassigned",
+      "note": "A phase of the adaptive cycle. A phase describes the state of a system, not a cause or an effect, so the logical kind is not decided yet."
+    },
+    {
+      "name": "Exit (χ)",
+      "uuid": "61445a12-c795-44e4-8385-fc261741eb50",
+      "kind": "unassigned",
+      "note": "A phase of the adaptive cycle. A phase describes the state of a system, not a cause or an effect, so the logical kind is not decided yet."
+    }
+  ]
+}

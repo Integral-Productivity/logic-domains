@@ -4,6 +4,7 @@
   "packages": [
     { "name": "self-organization", "source": { "path": "domains/self-organization" } },
     { "name": "product-lifecycle", "source": { "path": "domains/product-lifecycle" } },
-    { "name": "customer-progress", "source": { "path": "domains/customer-progress" } }
+    { "name": "customer-progress", "source": { "path": "domains/customer-progress" } },
+    { "name": "adaptive-cycle-mapping", "source": { "path": "domains/adaptive-cycle-mapping" } }
   ]
 }
