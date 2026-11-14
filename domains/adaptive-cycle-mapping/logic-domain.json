@@ -10,7 +10,7 @@
   ],
   "flying_logic": {
     "domain_name": "Adaptive Cycle Mapping",
-    "domain_file": "adaptive-cycle-mapping.logic-d"
+    "domain_file": "adaptive-cycle-mapping.xlogicd"
   },
   "classes": [
     {

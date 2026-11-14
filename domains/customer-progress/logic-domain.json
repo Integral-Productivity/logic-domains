@@ -10,7 +10,7 @@
   ],
   "flying_logic": {
     "domain_name": "Customer Progress",
-    "domain_file": "customer-progress.logic-d"
+    "domain_file": "customer-progress.xlogicd"
   },
   "classes": [
     {

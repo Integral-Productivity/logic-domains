@@ -10,7 +10,7 @@
   ],
   "flying_logic": {
     "domain_name": "Product Lifecycle",
-    "domain_file": "product-lifecycle.logic-d"
+    "domain_file": "product-lifecycle.xlogicd"
   },
   "classes": [
     {

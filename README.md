@@ -4,7 +4,7 @@ A **Logic Domain** is a reusable set of entity classes for logic trees (Goal Tre
 
 - the classes, and the **logical kind** of each class (effect, action, precondition, obstacle or indicator), so a review can read the kind and not the class name;
 - the source record types each class can mirror (`src_type`);
-- later: a Flying Logic domain file (`.logic-d`), checks, and scripts tuned to the domain.
+- later: a Flying Logic domain file (`.xlogicd`), checks, and scripts tuned to the domain.
 
 "Domain" is the [Flying Logic term](https://docs.flyinglogic.com/user-guide/domains.html) for a group of entity classes. "Logic Domain" adds the qualifier so the term is not confused with a governance domain (for example a Holacracy domain).
 

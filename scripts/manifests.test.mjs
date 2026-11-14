@@ -69,7 +69,7 @@ for (const pkg of marketplace.packages) {
       if (uuid) found.set(uuid, name);
     }
     const listed = new Map(m.classes.map((c) => [c.uuid, c.name]));
-    assert.deepEqual([...found].sort(), [...listed].sort(), 'classes in the .logic-d file differ from the manifest');
+    assert.deepEqual([...found].sort(), [...listed].sort(), 'classes in the .xlogicd file differ from the manifest');
   });
 }
 

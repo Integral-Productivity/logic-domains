@@ -6,6 +6,6 @@ The classes are the phases of the adaptive cycle from panarchy theory: growth or
 
 Open question: a phase describes the state of a system, not a cause or an effect. So no class has a logical kind yet (`unassigned`). The owner decides if the phases map to logical kinds or stay as tags on other entities.
 
-The Flying Logic domain file, `adaptive-cycle-mapping.logic-d`, is not exported yet. Export it from Flying Logic with Entity > Export Selected Domain and save it in this folder. Do not generate it: its class UUIDs keep existing trees linked.
+The Flying Logic domain file, `adaptive-cycle-mapping.xlogicd`, is not exported yet. Export it from Flying Logic with Entity > Export Selected Domain and save it in this folder. Do not generate it: its class UUIDs keep existing trees linked.
 
 Not here yet: checks and scripts.

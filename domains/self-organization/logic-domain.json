@@ -10,7 +10,7 @@
   ],
   "flying_logic": {
     "domain_name": "Self-Organization",
-    "domain_file": "self-organization.logic-d"
+    "domain_file": "self-organization.xlogicd"
   },
   "classes": [
     {

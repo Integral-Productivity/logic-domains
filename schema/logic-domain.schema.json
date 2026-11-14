@@ -53,14 +53,14 @@
         "domain_file"
       ],
       "additionalProperties": false,
-      "description": "The Flying Logic domain that carries these classes. The exported .logic-d file is the source of class identity: its class UUIDs keep existing trees linked, so it is exported from Flying Logic, never generated.",
+      "description": "The Flying Logic domain that carries these classes. The exported .xlogicd file is the source of class identity: its class UUIDs keep existing trees linked, so it is exported from Flying Logic, never generated.",
       "properties": {
         "domain_name": {
           "type": "string"
         },
         "domain_file": {
           "type": "string",
-          "pattern": "^[a-z0-9-]+\\.logic-d$",
+          "pattern": "^[a-z0-9-]+\\.xlogicd$",
           "description": "Path, relative to the Logic Domain folder, of the domain exported with Entity > Export Selected Domain."
         }
       }
