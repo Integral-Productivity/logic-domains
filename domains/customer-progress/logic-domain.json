@@ -1,0 +1,101 @@
+{
+  "name": "customer-progress",
+  "title": "Customer Progress",
+  "version": "0.1.0",
+  "status": "proposed",
+  "description": "The customer's job, the forces of progress, and the customer's own actions and outcomes. Draws on Jobs To Be Done and Outcome-Driven Innovation. Part of the commitment-to-outcome mapping in ADR 0002.",
+  "owner": "",
+  "sources": [
+    "docs/adr/0002-logic-domains-model-commitment-to-outcome.md"
+  ],
+  "flying_logic": {
+    "domain_name": "Customer Progress",
+    "domain_file": "customer-progress.xlogicd"
+  },
+  "classes": [
+    {
+      "name": "Job",
+      "uuid": "70f733d9-174e-4978-9b38-2a006e53e30e",
+      "kind": "precondition",
+      "src_types": [
+        "research"
+      ]
+    },
+    {
+      "name": "Switch Trigger",
+      "uuid": "f92ffce2-1796-4177-a068-aabb3bc2342c",
+      "kind": "precondition",
+      "src_types": [
+        "research"
+      ]
+    },
+    {
+      "name": "Customer Outcome",
+      "uuid": "b9e8941c-e202-438c-b4ed-058958786488",
+      "kind": "effect",
+      "src_types": [
+        "research"
+      ]
+    },
+    {
+      "name": "Pain Point",
+      "uuid": "c151a9d5-d5c2-4762-b819-cd3b24b4d7bd",
+      "kind": "effect",
+      "role": "undesirable",
+      "src_types": [
+        "research"
+      ]
+    },
+    {
+      "name": "Push",
+      "uuid": "8631ad99-3ff0-4e30-82e4-4491f1520189",
+      "kind": "effect",
+      "src_types": [
+        "research"
+      ]
+    },
+    {
+      "name": "Pull",
+      "uuid": "073ca0c1-89fc-4608-926a-1270126929ee",
+      "kind": "effect",
+      "src_types": [
+        "research"
+      ]
+    },
+    {
+      "name": "Anxiety",
+      "uuid": "f87e3a85-90d7-4e53-94b5-4b6091a5e66b",
+      "kind": "obstacle",
+      "src_types": [
+        "research"
+      ]
+    },
+    {
+      "name": "Habit",
+      "uuid": "03da5328-cde3-41d9-879a-b806a017f143",
+      "kind": "obstacle",
+      "src_types": [
+        "research"
+      ]
+    },
+    {
+      "name": "Customer Action",
+      "uuid": "f74c8930-7035-4c47-9908-8748f766005f",
+      "kind": "effect",
+      "role": "observed",
+      "src_types": [
+        "research"
+      ]
+    },
+    {
+      "name": "Design Opportunity",
+      "uuid": "4bf1a064-a113-4c75-bf80-ddecec3f9233",
+      "kind": "unassigned",
+      "role": "bridge",
+      "src_types": [
+        "research"
+      ],
+      "note": "ADR 0002 calls it a bridge, which is not one of the five logical kinds."
+    }
+  ]
+}

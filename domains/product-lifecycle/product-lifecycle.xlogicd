@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><domain majorVersion="5" minorVersion="0">
+<attributes>
+<attribute class="java.lang.String" key="name">Product Lifecycle</attribute>
+<attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+<attribute class="java.lang.Boolean" key="hidden">false</attribute>
+</attributes>
+<entityClass>
+<attributes>
+<attribute class="java.util.UUID" key="uuid">a0533d53-5bf4-4caa-8991-c2469e839995</attribute>
+<attribute class="java.lang.String" key="name">Launch</attribute>
+<attribute class="com.arciem.graphics.ColorRGB" key="color">
+<colorRGB blue="0.6274509803921569" green="0.9137254901960784" red="1.0"/>
+</attribute>
+<attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+<attribute class="java.lang.Boolean" key="milestone">false</attribute>
+<attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+</attributes>
+</entityClass>
+<entityClass>
+<attributes>
+<attribute class="java.util.UUID" key="uuid">7104d0a4-8d64-46e7-9d4f-3f24c616ff58</attribute>
+<attribute class="java.lang.String" key="name">Release</attribute>
+<attribute class="com.arciem.graphics.ColorRGB" key="color">
+<colorRGB blue="0.7843137254901961" green="0.9294117647058824" red="0.8627450980392157"/>
+</attribute>
+<attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+<attribute class="java.lang.Boolean" key="milestone">false</attribute>
+<attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+</attributes>
+</entityClass>
+<entityClass>
+<attributes>
+<attribute class="java.util.UUID" key="uuid">25e34b0e-3609-4f8f-a41d-82cba410b254</attribute>
+<attribute class="java.lang.String" key="name">Initiative</attribute>
+<attribute class="com.arciem.graphics.ColorRGB" key="color">
+<colorRGB blue="0.25098039215686274" green="0.8431372549019608" red="1.0"/>
+</attribute>
+<attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+<attribute class="java.lang.Boolean" key="milestone">false</attribute>
+<attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+</attributes>
+</entityClass>
+<entityClass>
+<attributes>
+<attribute class="java.util.UUID" key="uuid">6c0ed281-7f89-42f5-b6cb-c32f3095d69a</attribute>
+<attribute class="java.lang.String" key="name">Key Result</attribute>
+<attribute class="com.arciem.graphics.ColorRGB" key="color">
+<colorRGB blue="0.30196078431372547" green="0.7176470588235294" red="1.0"/>
+</attribute>
+<attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+<attribute class="java.lang.Boolean" key="milestone">false</attribute>
+<attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+</attributes>
+</entityClass>
+<entityClass>
+<attributes>
+<attribute class="java.util.UUID" key="uuid">be26765d-b3a3-4eeb-8fb1-84f0088156fc</attribute>
+<attribute class="java.lang.String" key="name">Objective</attribute>
+<attribute class="com.arciem.graphics.ColorRGB" key="color">
+<colorRGB blue="0.23529411764705882" green="0.5568627450980392" red="0.2196078431372549"/>
+</attribute>
+<attribute class="java.lang.Double" key="edgeWeight">1.0</attribute>
+<attribute class="java.lang.Boolean" key="milestone">false</attribute>
+<attribute class="java.lang.Boolean" key="builtIn">false</attribute>
+</attributes>
+</entityClass>
+</domain>

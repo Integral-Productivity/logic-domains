@@ -1,0 +1,56 @@
+{
+  "name": "product-lifecycle",
+  "title": "Product Lifecycle",
+  "version": "0.1.0",
+  "status": "proposed",
+  "description": "Product commitments and the provider's steps from initiative to launch. Part of the commitment-to-outcome mapping in ADR 0002.",
+  "owner": "",
+  "sources": [
+    "docs/adr/0002-logic-domains-model-commitment-to-outcome.md"
+  ],
+  "flying_logic": {
+    "domain_name": "Product Lifecycle",
+    "domain_file": "product-lifecycle.xlogicd"
+  },
+  "classes": [
+    {
+      "name": "Objective",
+      "uuid": "be26765d-b3a3-4eeb-8fb1-84f0088156fc",
+      "kind": "effect",
+      "src_types": [
+        "pb:Objective"
+      ]
+    },
+    {
+      "name": "Key Result",
+      "uuid": "6c0ed281-7f89-42f5-b6cb-c32f3095d69a",
+      "kind": "indicator",
+      "src_types": [
+        "pb:KeyResult"
+      ]
+    },
+    {
+      "name": "Initiative",
+      "uuid": "25e34b0e-3609-4f8f-a41d-82cba410b254",
+      "kind": "action",
+      "role": "commitment",
+      "src_types": [
+        "pb:Initiative"
+      ]
+    },
+    {
+      "name": "Release",
+      "uuid": "7104d0a4-8d64-46e7-9d4f-3f24c616ff58",
+      "kind": "effect",
+      "src_types": [
+        "pb:Release",
+        "pb:ReleaseGroup"
+      ]
+    },
+    {
+      "name": "Launch",
+      "uuid": "a0533d53-5bf4-4caa-8991-c2469e839995",
+      "kind": "action"
+    }
+  ]
+}

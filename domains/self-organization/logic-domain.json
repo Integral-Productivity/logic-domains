@@ -1,0 +1,99 @@
+{
+  "name": "self-organization",
+  "title": "Self-Organization",
+  "version": "0.1.0",
+  "status": "proposed",
+  "description": "Governance and operations records of a self-organizing organization (for example Holacracy). Part of the commitment-to-outcome mapping in ADR 0002.",
+  "owner": "",
+  "sources": [
+    "docs/adr/0002-logic-domains-model-commitment-to-outcome.md"
+  ],
+  "flying_logic": {
+    "domain_name": "Self-Organization",
+    "domain_file": "self-organization.xlogicd"
+  },
+  "classes": [
+    {
+      "name": "Purpose",
+      "uuid": "88137efa-4a6d-4ddb-9ddf-653adb0540fa",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Accountability",
+      "uuid": "4faf88e9-3b43-4d49-bee1-f7a29e9a73e7",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Domain",
+      "uuid": "9f578cd7-a32f-464e-bd19-0845f49d4080",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Policy",
+      "uuid": "65ea7e57-7a4e-40ff-b30e-e4bd3e20c667",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Project",
+      "uuid": "7df1f467-9f25-4633-9b52-939727797e80",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Next Action",
+      "uuid": "7a17aa6c-58e4-4c2d-b194-1cc46b56015f",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Checklist Item",
+      "uuid": "91639221-378d-4497-bc8f-0ba2830dc10a",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Metric",
+      "uuid": "627265f7-7fea-4ff6-8355-a0eba97864ab",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Tension",
+      "uuid": "ef38285b-ed33-4fcc-8c85-5bda801d1d4a",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Trigger",
+      "uuid": "40464a99-d022-4649-8766-10a80ca566a2",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Request",
+      "uuid": "95ec6792-8335-4219-961e-26dd6d04103d",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Governance Proposal",
+      "uuid": "62b42bee-2184-4d20-8bb2-fdc4a3970bd0",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Inferred / NEW",
+      "uuid": "eafc7dc6-b1ad-4707-a097-acc5a5bd951a",
+      "kind": "unassigned",
+      "note": "Named \"Inferred / NEW\" in Flying Logic; ADR 0002 calls it \"Inferred\"."
+    },
+    {
+      "name": "Org Goal",
+      "uuid": "9731b419-8c4b-47ef-a82c-d9b50cbffa9d",
+      "kind": "effect",
+      "src_types": [
+        "gf:Goal"
+      ]
+    },
+    {
+      "name": "Org Target",
+      "uuid": "d2f23965-9c10-4aa1-95f8-4cddffdd6170",
+      "kind": "indicator",
+      "src_types": [
+        "gf:Target"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "logic-domains",
+  "description": "Public Logic Domains. Draft 0.1: the package manager that reads this index is not built yet.",
+  "packages": [
+    { "name": "self-organization", "source": { "path": "domains/self-organization" } },
+    { "name": "product-lifecycle", "source": { "path": "domains/product-lifecycle" } },
+    { "name": "customer-progress", "source": { "path": "domains/customer-progress" } },
+    { "name": "adaptive-cycle-mapping", "source": { "path": "domains/adaptive-cycle-mapping" } }
+  ]
+}
