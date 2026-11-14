@@ -12,6 +12,7 @@ const marketplace = read('marketplace.json');
 const KINDS = schema.properties.classes.items.properties.kind.enum;
 const SRC = new RegExp(schema.properties.classes.items.properties.src_types.items.pattern);
 const TOP = Object.keys(schema.properties);
+const UUID = new RegExp(schema.properties.classes.items.properties.uuid.pattern);
 const CLASS_KEYS = Object.keys(schema.properties.classes.items.properties);
 
 test('marketplace lists unique packages that exist', () => {
@@ -38,6 +39,7 @@ for (const pkg of marketplace.packages) {
       assert.ok(!seen.has(c.name), `${c.name}: duplicate class`);
       seen.add(c.name);
       for (const s of c.src_types ?? []) assert.match(s, SRC, `${c.name}: bad src_type ${s}`);
+      assert.match(c.uuid ?? '', UUID, `${c.name}: bad uuid`);
     }
   });
   test(`${pkg.name}: an accepted Logic Domain has an owner and no unassigned kind`, () => {
@@ -49,7 +51,37 @@ for (const pkg of marketplace.packages) {
     assert.ok(m.owner, 'no owner');
     assert.deepEqual(gaps, [], 'classes without a logical kind');
   });
+
+  test(`${pkg.name}: the Flying Logic domain file matches the manifest`, (t) => {
+    const file = join(root, pkg.source.path, m.flying_logic.domain_file);
+    if (!existsSync(file)) {
+      if (m.status === 'accepted') assert.fail(`missing ${m.flying_logic.domain_file}`);
+      t.skip(`${m.flying_logic.domain_file} not exported yet`);
+      return;
+    }
+    const xml = readFileSync(file, 'utf8');
+    const domain = xml.match(/key="name">([^<]*)</);
+    assert.equal(domain?.[1], m.flying_logic.domain_name, 'domain name differs');
+    const found = new Map();
+    for (const block of xml.split('<entityClass>').slice(1)) {
+      const uuid = block.match(/key="uuid">([^<]*)</)?.[1];
+      const name = block.match(/key="name">([^<]*)</)?.[1];
+      if (uuid) found.set(uuid, name);
+    }
+    const listed = new Map(m.classes.map((c) => [c.uuid, c.name]));
+    assert.deepEqual([...found].sort(), [...listed].sort(), 'classes in the .logic-d file differ from the manifest');
+  });
 }
+
+test('class uuids are unique across Logic Domains', () => {
+  const seen = new Set();
+  for (const pkg of marketplace.packages) {
+    for (const c of read(join(pkg.source.path, 'logic-domain.json')).classes) {
+      assert.ok(!seen.has(c.uuid), `${c.name}: duplicate uuid ${c.uuid}`);
+      seen.add(c.uuid);
+    }
+  }
+});
 
 test('class names are unique across Logic Domains', () => {
   const where = new Map();
