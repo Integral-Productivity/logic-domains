@@ -1,0 +1,79 @@
+{
+  "name": "self-organization",
+  "title": "Self-Organization",
+  "version": "0.1.0",
+  "status": "proposed",
+  "description": "Governance and operations records of a self-organizing organization (for example Holacracy). Part of the commitment-to-outcome mapping in ADR 0002.",
+  "owner": "",
+  "sources": [
+    "docs/adr/0002-logic-domains-model-commitment-to-outcome.md"
+  ],
+  "classes": [
+    {
+      "name": "Purpose",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Accountability",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Domain",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Policy",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Project",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Next Action",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Checklist Item",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Metric",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Tension",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Trigger",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Request",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Governance Proposal",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Inferred",
+      "kind": "unassigned"
+    },
+    {
+      "name": "Org Goal",
+      "kind": "effect",
+      "src_types": [
+        "gf:Goal"
+      ]
+    },
+    {
+      "name": "Org Target",
+      "kind": "indicator",
+      "src_types": [
+        "gf:Target"
+      ]
+    }
+  ]
+}
